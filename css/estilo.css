@@ -1,0 +1,15 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+body{
+    background-color: rgb(183, 155, 203);
+}
+
+.titulo-principal{
+    font-size: 50px;
+    text-align: center;
+    color: rgb(44, 103, 83);
+}
