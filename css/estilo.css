@@ -1,15 +1,130 @@
-*{
+* {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
 
 }
-body{
+
+body {
     background-color: rgb(183, 155, 203);
+    width: 100vw;
 }
 
-.titulo-principal{
+.inicio-1 {
+    background-color: rgb(156, 103, 194);
+    font-size: 20px;
+    padding: 3rem;
+    width: 100vw;
+
+}
+
+.titulo-principal {
     font-size: 50px;
     text-align: center;
-    color: rgb(44, 103, 83);
+    color: #f5f9fc
+}
+
+
+
+.listado-productos {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+    font-size: 20px;
+    color: #f5f9fc;
+    padding: 4rem;
+    text-transform: uppercase;
+}
+
+.slogan {
+    font-size: 25px;
+    font-weight: 600;
+    line-height: 3rem;
+    color: #f5f9fc;
+
+}
+
+.inicio-2 {
+    background-color: rgb(44, 103, 83);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2rem;
+    color: aliceblue;
+    font-size: 20px;
+    width: 100vw;
+}
+
+.encabezado {
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin: 1rem;
+    min-height: 100%;
+}
+
+.listado {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-end;
+    margin: 2rem;
+    list-style: none;
+    color: #f5f9fc;
+    font-size: 20px;
+    font-weight: 700;
+    padding-top: 1rem;
+}
+
+.item {
+    margin: 1rem;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-end;
+    padding-left: 1rem;
+    padding-top: 1rem;
+    padding-right: 2rem;
+    color: #f5f9fc;
+    font-size: 20px;
+    width: 100vw;
+    height: 100vp;
+}
+
+.redes-sociales {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-end;
+    padding-right: 4rem;
+    padding-top: 3rem;
+
+}
+
+.direcciones {
+    padding-left: 2rem;
+    color: #f5f9fc;
+}
+
+.lista-dire {
+    list-style: none;
+
+}
+
+.ubicacion {
+    text-align: center;
+    color: #f5f9fc;
 }
