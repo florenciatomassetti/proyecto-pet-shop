@@ -9,7 +9,9 @@ body {
 
     width: 100%;
 }
-
+main{
+    min-height: 100vh;
+}
 
 .inicio-1 {
     background-color: rgb(205, 147, 157);
@@ -88,13 +90,10 @@ body {
     align-items: center;
     padding-left: 1rem;
     height: 130px;
+    background-color: #96ac60;
+
 }
 
-.gradiente {
-
-    background-color: rgb(2, 0, 36);
-    background: linear-gradient(176deg, rgba(2, 0, 36, 1) 0%, rgba(111, 125, 17, 0.9992361450195313) 48%);
-}
 
 .listado {
     display: flex;
@@ -104,7 +103,7 @@ body {
     margin: 2rem;
     list-style: none;
     color: #020609;
-    font-size: 25px;
+    font-size: 20px;
     font-weight: 700;
     padding-top: 1rem;
 }
@@ -118,6 +117,9 @@ a {
     color: inherit;
 }
 
+.color-base{
+    background-color: #96ac60;
+}
 footer {
     display: flex;
     flex-direction: row;
@@ -259,3 +261,23 @@ footer {
 
     font-size: 20px;
 }
+/*vista movil*/
+@media (max-width:600px){
+.listado{
+
+}
+    .listado-productos{
+    flex-direction: column;
+
+}
+.encabezado{
+    padding: 8px;
+}
+.imagenes, .video{
+    width: 100%;
+    object-fit: cover;
+}
+
+   
+}
+
