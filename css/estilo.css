@@ -267,20 +267,18 @@ footer {
 /*vista movil*/
 @media (max-width:600px) {
     .encabezado {
-       padding-bottom: 2rem;
-        padding-top: 4rem;
 
-
+        padding-top: 2rem;
     }
 
     .listado {
         font-size: 1rem;
-        margin:1rem;
+        margin: 1rem;
 
     }
 
     .listado-productos {
-        display:flex;
+        display: flex;
         flex-direction: column;
         font-size: 12px;
         align-items: baseline;
@@ -303,8 +301,8 @@ footer {
     .img-logo {
         height: 50px;
         width: auto;
-    background-position: left;
-padding-bottom: 1rem;
+        background-position: left;
+
     }
 
     .titulo-principal {
@@ -331,14 +329,16 @@ padding-bottom: 1rem;
         padding-left: 1rem;
         background-position: center;
     }
-.position-fixed{
-    border-radius: 2rem;
-    width: 3rem;
-    height: 2rem;
-   
-}
+
+    .position-fixed {
+        border-radius: 2rem;
+        width: 3rem;
+        height: 2rem;
+
+    }
+
     .jam-whatsapp {
-        
+
         font-size: 2rem;
         padding-left: 10px;
         padding-top: 2rem;
@@ -347,10 +347,16 @@ padding-bottom: 1rem;
 
     }
 
-    .color-base{   
-        flex-direction:column;
-        justify-content: end;
-        align-items: flex-start
+    .color-base {
+        width: 100%;
+      display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: stretch;
+    }
+    
+    
+        
     }
 
     .footer img {
@@ -363,14 +369,17 @@ padding-bottom: 1rem;
         height: 25px;
         width: auto;
         font-size: 10px;
-        
+
     }
-    .mis-redes{
-        font-size: 15px;
+
+    .mis-redes {
+        font-size: 13px;
     }
 
     .direcciones {
-        font-size: 10px;
+        font-size: 13px;
+        text-align: inherit;
+        padding: 0%;
+        padding-top: 1rem;
     }
 
-}
