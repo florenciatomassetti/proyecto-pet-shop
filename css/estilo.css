@@ -267,21 +267,20 @@ footer {
 /*vista movil*/
 @media (max-width:600px) {
     .encabezado {
-        flex-direction: column;
-        justify-content: center;
-        padding-bottom: 3rem;
-        padding-top: 2rem;
+       padding-bottom: 2rem;
+        padding-top: 4rem;
 
 
     }
 
     .listado {
         font-size: 1rem;
-        padding-top: 2rem;
-        padding-bottom: 3rem;
+        margin:1rem;
+
     }
 
     .listado-productos {
+        display:flex;
         flex-direction: column;
         font-size: 12px;
         align-items: baseline;
@@ -302,11 +301,10 @@ footer {
     }
 
     .img-logo {
-        height: 100px;
+        height: 50px;
         width: auto;
-        padding-top: 3rem;
-        margin-top: 3rem;
-
+    background-position: left;
+padding-bottom: 1rem;
     }
 
     .titulo-principal {
