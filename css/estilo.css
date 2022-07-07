@@ -349,37 +349,59 @@ footer {
 
     .color-base {
         width: 100%;
-      display: flex;
+        display: flex;
         flex-direction: row;
-        justify-content: space-around;
-        align-items: stretch;
-    }
-    
-    
-        
+        justify-content: center;
+        align-items: flex-start;
     }
 
+
+
     .footer img {
-        height: 40px;
-        width: auto;
-        background-position: left;
+        height: 60px;
+        width: 60px;
+        background-position: center;
+        padding-top: 1rem;
+        padding-left: 2rem;
     }
 
     .redes-sociales img {
-        height: 25px;
+
+        height: 20px;
         width: auto;
         font-size: 10px;
+        padding-left: 2rem;
+
 
     }
 
     .mis-redes {
-        font-size: 13px;
+        font-size: 12px;
+        text-align: right;
+        padding-left: 2rem;
+
     }
 
     .direcciones {
-        font-size: 13px;
-        text-align: inherit;
+
+        display: flex;
+        flex-direction: row;
+        font-size: 10px;
+        text-align: center;
         padding: 0%;
         padding-top: 1rem;
+        padding-right: 1rem;
+
     }
 
+}
+
+
+
+/*vista tablet*/
+@media (max-width:1023px) {
+    .main {
+        min-height: 0%;
+
+    }
+}
