@@ -316,18 +316,63 @@ footer {
     .slogan {
         font-size: 20px;
     }
-    
-    .inicio-2{
-       flex-direction: column; 
+
+    .inicio-2 {
+        flex-direction: column;
     }
-    .presentacion{
+
+    .presentacion {
         font-size: 20px;
 
     }
-    .imagen-puppys{
+
+    .imagen-puppys {
         height: 200px;
-       width: auto;
-       padding-top: 1rem;
+        width: auto;
+        padding-top: 2rem;
+        padding-left: 1rem;
+        background-position: center;
+    }
+.position-fixed{
+    border-radius: 2rem;
+    width: 3rem;
+    height: 2rem;
+   
+}
+    .jam-whatsapp {
+        
+        font-size: 2rem;
+        padding-left: 10px;
+        padding-top: 2rem;
+        padding-bottom: 1rem;
+        padding-right: 1rem;
+
+    }
+
+    .color-base{   
+        flex-direction:column;
+        justify-content: end;
+        align-items: flex-start
+    }
+
+    .footer img {
+        height: 40px;
+        width: auto;
+        background-position: left;
+    }
+
+    .redes-sociales img {
+        height: 25px;
+        width: auto;
+        font-size: 10px;
+        
+    }
+    .mis-redes{
+        font-size: 15px;
+    }
+
+    .direcciones {
+        font-size: 10px;
     }
 
 }
