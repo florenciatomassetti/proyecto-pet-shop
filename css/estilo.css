@@ -9,7 +9,8 @@ body {
 
     width: 100%;
 }
-main{
+
+main {
     min-height: 100vh;
 }
 
@@ -117,9 +118,10 @@ a {
     color: inherit;
 }
 
-.color-base{
+.color-base {
     background-color: #96ac60;
 }
+
 footer {
     display: flex;
     flex-direction: row;
@@ -261,41 +263,71 @@ footer {
 
     font-size: 20px;
 }
+
 /*vista movil*/
-@media (max-width:600px){
-.encabezado{
-flex-direction: column;
-justify-content: center;
-padding-bottom: 3rem;
-padding-top: 2rem;
- 
+@media (max-width:600px) {
+    .encabezado {
+        flex-direction: column;
+        justify-content: center;
+        padding-bottom: 3rem;
+        padding-top: 2rem;
+
+
+    }
+
+    .listado {
+        font-size: 1rem;
+        padding-top: 2rem;
+        padding-bottom: 3rem;
+    }
+
+    .listado-productos {
+        flex-direction: column;
+        font-size: 12px;
+        align-items: baseline;
+        justify-content: center;
+        line-height: 1rem;
+        padding: 2rem;
+    }
+
+    .inicio-1,
+    .inicio-2 {
+        width: 100%;
+    }
+
+    .imagenes,
+    .video {
+        width: 100%;
+        object-fit: cover;
+    }
+
+    .img-logo {
+        height: 100px;
+        width: auto;
+        padding-top: 3rem;
+        margin-top: 3rem;
+
+    }
+
+    .titulo-principal {
+        font-size: 30px;
+    }
+
+    .slogan {
+        font-size: 20px;
+    }
     
-}
-.listado{
-    font-size: 1rem;
-    padding-top: 2rem;
-    padding-bottom: 3rem;
-}
+    .inicio-2{
+       flex-direction: column; 
+    }
+    .presentacion{
+        font-size: 20px;
 
-    .listado-productos{
-    flex-direction: column;
-
-}
-
-.inicio-1,.inicio-2{
-    width: 100%;
-}
-.imagenes, .video{
-    width: 100%;
-    object-fit:cover;
-}
-.img-logo{
-    height: 100px; 
-    width: auto;
-    padding-top: 3rem;
-    margin-top: 3rem;
-    
- }
+    }
+    .imagen-puppys{
+        height: 200px;
+       width: auto;
+       padding-top: 1rem;
+    }
 
 }
-
