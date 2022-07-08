@@ -17,7 +17,8 @@ body {
     font-size: 20px;
     padding: 3rem;
     width: 100%;
-
+    background-image: url("http://assets.stickpng.com/thumbs/58aeffeec869e092af51ee79.png");
+    background-repeat: no-repeat;
 }
 
 .titulo-principal {
@@ -265,7 +266,7 @@ footer {
 /*vista movil*/
 @media (max-width:600px) {
     .encabezado {
-
+        overflow: hidden;
         padding-top: 2rem;
     }
 
@@ -345,51 +346,69 @@ footer {
 
     }
 
-    .footer{
+    footer {
+        height: auto;
         width: 100%;
         display: flex;
         flex-direction: column;
+        flex-wrap: wrap;
         justify-content: end;
         align-content: center;
         align-items: flex-start;
     }
 
+.footer-logo{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
 
+}
 
     .footer-logo img {
         height: 60px;
         width: 60px;
         background-position: left;
-        padding-top: 1rem;
-        padding-left: 2rem;
+        border-radius: 50%;
+
     }
 
+    .redes-sociales{
+        padding: 0%;
+        width: 100%;
+    }
     .redes-sociales img {
 
+    
         height: 20px;
-        width: auto;
+       
         font-size: 10px;
-        padding-left: 2rem;
-
 
     }
+.redes-items{
+    width: 100%;
+    display:flex;
+    justify-content: center;
 
+}
     .mis-redes {
         font-size: 12px;
         text-align: right;
-        padding-left: 3rem;
+        padding: 5px;
+
 
     }
 
     .direcciones {
 
         display: flex;
-        flex-direction: row;
+        flex-direction: column;
         font-size: 10px;
         text-align: center;
         padding: 0%;
-        padding-top: 1rem;
-        padding-right: 1rem;
+        padding-top: 10px;
+        width: 100%;
 
     }
 
