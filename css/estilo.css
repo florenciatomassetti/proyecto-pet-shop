@@ -8,7 +8,9 @@
 body {
 
     width: 100%;
+    font-family: none;
 }
+
 
 
 
@@ -82,9 +84,10 @@ body {
 
 }
 
-.logo-header{
+.logo-header {
     margin-left: 1rem;
 }
+
 .encabezado {
 
     display: flex;
@@ -139,11 +142,6 @@ footer {
 }
 
 
-.gradiente {
-    background-color: rgb(2, 0, 36);
-    background: linear-gradient(176deg, rgba(2, 0, 36, 1) 0%, rgba(111, 125, 17, 0.9992361450195313) 48%);
-}
-
 
 .redes-sociales {
     display: flex;
@@ -187,7 +185,7 @@ footer {
 .ofertas {
     text-align: right;
     color: #e7f3ea;
-    padding-right: 2rem;
+
 
 }
 
@@ -196,15 +194,14 @@ footer {
     flex-direction: column;
     justify-content: space-between;
     align-items: left;
-    flex-wrap: wrap;
-    padding: 1rem;
+    margin-left: 3rem;
 
 }
 
 .descrip {
     padding-top: 2rem;
     text-align: left;
-    
+
     padding-bottom: 1rem;
     font-weight: 700;
 }
@@ -217,6 +214,7 @@ footer {
     background-size: 25%;
     text-align: center;
     text-transform: uppercase;
+    margin-bottom: 1rem;
 
 }
 
@@ -246,19 +244,21 @@ footer {
 .video {
     padding-top: 2rem;
 }
-.form-email{
+
+.form-email {
     margin-left: 1rem;
     margin-right: 1rem;
 }
 
-.mensaje{
+.mensaje {
     margin-left: 1rem;
-    margin-right: 1rem; 
-    margin-bottom:1rem ;
-    
+    margin-right: 1rem;
+    margin-bottom: 1rem;
+
 }
-.boton{
-    margin-left:12px;
+
+.boton {
+    margin-left: 12px;
     margin-bottom: 12px;
     background-color: #000000;
     color: #e7f3ea;
@@ -418,7 +418,7 @@ footer {
 
     }
 
-    .encabezado{
+    .encabezado {
         height: auto;
         width: 100%;
         display: flex;
@@ -428,23 +428,27 @@ footer {
         align-content: center;
         align-items: flex-start;
     }
-    .logo-header{
+
+    .logo-header {
         height: 60px;
         width: 60px;
-        background-position:center;
-        border-radius: 50%; 
-        margin-top: 12px;  
+        background-position: center;
+        border-radius: 50%;
+        margin-top: 12px;
         margin-left: 0%;
 
     }
-    .texto-1{
-    text-transform: none;
+
+    .texto-1 {
+        text-transform: none;
 
     }
-    
-body{
-    font-family: none;
-}
+    .descrip{
+        font-size: 15px;
+      
+    }
+
+
 }
 
 
