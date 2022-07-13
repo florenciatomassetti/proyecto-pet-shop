@@ -245,6 +245,14 @@ footer {
     padding-top: 2rem;
 }
 
+.formulario {
+    background-color: #f5f9fc;
+    padding: 12px;
+    border-color: #000000;
+    border-style: double;
+
+}
+
 .form-email {
     margin-left: 1rem;
     margin-right: 1rem;
@@ -276,6 +284,7 @@ footer {
     .listado {
         font-size: 1rem;
         margin: 1rem;
+        padding: 0%;
 
     }
 
@@ -358,6 +367,7 @@ footer {
         justify-content: end;
         align-content: center;
         align-items: flex-start;
+
     }
 
     .footer-logo {
@@ -443,9 +453,18 @@ footer {
         text-transform: none;
 
     }
-    .descrip{
+
+    .descrip {
         font-size: 15px;
-      
+
+    }
+
+    .formulario {
+        background-color: #f5f9fc;
+        padding: 12px;
+        border-color: #000000;
+        border-style: double;
+
     }
 
 
