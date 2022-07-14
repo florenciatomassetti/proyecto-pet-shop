@@ -173,17 +173,18 @@ footer {
     background-color: rgb(205, 147, 157);
     background-image: url(../imagenes/coco.jpg);
     background-size: contain;
-    background-position: right;
+    background-position: center;
     background-repeat: no-repeat;
-    padding-top: 2rem;
-    padding-right: 2rem;
-
-
 }
 
 
+
+
+
+
+
 .ofertas {
-    text-align: right;
+    text-align: center;
     color: #e7f3ea;
 
 
@@ -201,9 +202,10 @@ footer {
 .descrip {
     padding-top: 2rem;
     text-align: left;
-
     padding-bottom: 1rem;
-    font-weight: 700;
+    font-size: 20px;
+    color: black;
+
 }
 
 .monto {
@@ -466,6 +468,18 @@ footer {
         border-style: double;
 
     }
+
+    .tienda {
+        align-items: center;
+    }
+
+    .descrip {
+        text-transform: uppercase;
+        text-align: left;
+        font-weight: 600;
+
+    }
+
 
 
 }
